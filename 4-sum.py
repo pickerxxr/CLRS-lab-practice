@@ -26,3 +26,5 @@ def four_sum(arr):
 
 for_test = [4, 1, -2, -4, -3]
 print(four_sum(for_test))
+for_test2 = [4, 1, -2, -4, -3, 8]
+print(four_sum(for_test2))
