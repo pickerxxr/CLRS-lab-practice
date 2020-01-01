@@ -20,6 +20,6 @@ def wildcard_matching(s, p):
     return arr[n][m]
 
 
-s = 'teacher' # 对应的是n
-p = '?ea*r' # 对应的是m
+s = 'teacher'  # 对应的是n
+p = '?ea*r'  # 对应的是m
 print(wildcard_matching(s, p))
