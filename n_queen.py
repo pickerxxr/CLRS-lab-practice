@@ -1,8 +1,7 @@
 count = 0
 def queen(A, cur=0):
-    global count
     if cur == len(A):
-        count += 1
+        print(A)
     else:
         for col in range(len(A)):
             A[cur] = col  # 表示把第cur行的皇后放在col列上
